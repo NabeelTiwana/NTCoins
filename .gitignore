@@ -1,0 +1,34 @@
+src/*.exe
+src/NTCoin
+src/NTCoind
+src/test_NTCoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.NTCoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+NTCoin-qt
+NTCoin-Qt.app
+
+# Unit-tests
+Makefile.test
+NTCoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
